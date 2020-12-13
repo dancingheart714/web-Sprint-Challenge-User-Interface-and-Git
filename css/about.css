@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -28,7 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
 body {
 	line-height: 1;
 }
@@ -50,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 html, body {
@@ -57,78 +57,83 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    align-items: center;
+    padding-top: 2%;
     font-size: 16px;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.lambda-logo img {
+    margin: 5%;
+}
+
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+ .header-img {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.header-img img {
+    flex-grow: .5;
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
-    font-weight: bold;
 }
 
 p {
     line-height: 1.4;
+    font-size: 18px;
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
-}
 
-.topper{
+.bottom-content {
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    padding: 1%;
+    margin: 0 2% 20px;
+    justify-content: space-around;
 }
 
-.links{
-    display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    justify-content: space-between;
-    width: 18%;
-    padding-top: 2%;
+.bottom-content .text-container {
+    padding-right: 4%;
 }
 
-.logo{
-    display: flex;
-    justify-self: flex-start;
-}
-
-.jumbo{
-    display: flex;
-    justify-content: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-p{
-    text-align: justify;
-}
-
-
-.button{
-   background-color: white;
-   border: solid black 1px;
-   border-radius: 28px;
-   width: 10%;
-   padding: 1%;
-
-}
-.about{
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 0;
-}
-
-.strategy{
-    display: flex-wrap;
-    margin-left: 20%;
-    padding-top: 2%;
+.bottom-content .text-container:last-child {
+    padding-right: 0;
 }
 
 footer {
     width: 100%;
     background: black;
+    margin: 5%;
 }
 
 footer nav {
@@ -138,9 +143,49 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-top: 2%;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
+}
+
+.about-us {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 10%;
+    /* width: 600px; */
+}
+
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2%;
+
+}
+
+.about-us img{
+    width: 90%;
+
+}
+
+button {
+    width: 40%;
+    padding: 3%;
+    margin: 2% 0;
+    background: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+h3 {
+    margin: 2% 0;
+}
+
+.closing{
+    margin: 5%;
 }
