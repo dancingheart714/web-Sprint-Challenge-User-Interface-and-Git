@@ -51,22 +51,27 @@ table {
 * {
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: "Rubik", sans-serif;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Rubik", sans-serif;
+    width: 800px;
+    margin: auto;
+   
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    margin-top: .5rem;
 }
 
 p {
     line-height: 1.4;
+    font-family: "Rubik", sans-serif;
 }
 
 
@@ -81,35 +86,7 @@ nav a{
     color: black;
 }
 
-.lambda_logo{
-    display: flex;
-    justify-self: flex-start;
-    margin-left: 20%;
-}
-
-.navigation_links{
-    display: flex;
-    flex-wrap: nowrap;
-    width: 20%;
-    padding-top: 2%;
-    padding-right: 10%;
-    margin-right: 20%;
-    justify-content: space-between;
-}
-
-.jumbo{
-    display: flex;
-    justify-content: center;
-    padding-top: 2%;
-    padding-bottom: 6%:
-}
-
-/* nav a{
-    text-decoration: none;
-    color: black;
-}
-
-.containerabout_page{
+.topper{
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
@@ -119,47 +96,122 @@ nav a{
 .links{
     display: flex;
     flex-direction: row;
+    /* align-items: center; */
     justify-content: space-between;
     width: 18%;
     padding-top: 2%;
 }
 
-.lambda_logo{
+.logo{
     display: flex;
     justify-self: flex-start;
 }
 
-.jumbo{
+
+.jumbo_about{
     display: flex;
     justify-content: center;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 9%:
 }
 
-p{
-    text-align: justify;
-} */
 
-
-.button{
-   background-color: white;
-   border: solid black 1px;
-   border-radius: 28px;
-   width: 10%;
-   padding: 1%;
-
-}
 .about{
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 1rem;
+    border-bottom-style: solid, black, 1px;
 }
+
+.middle_section{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.top_row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.top_row p{
+    /* text-align: left; */
+    font-size: 16px;
+    padding-bottom: 1rem;
+}
+
 
 .strategy{
-    display: flex-wrap;
-    margin-left: 20%;
+    margin-left: 3%;
     padding-top: 2%;
+    text-align: left;
+   
 }
+
+.strategy p{
+    padding-top: 2%;  
+  
+}
+
+.work{
+    margin-left: 3%;
+    padding-top: 2%;
+    text-align: left;
+}
+
+.work p{
+    padding-top: 2%;  
+  
+}
+
+.second_row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.second_row p{
+    font-size: 16px;
+    padding-bottom: 1rem;
+}
+
+.places{
+    margin-left: 3%;
+    padding-top: 2%;
+    text-align:left;
+}
+
+.places p{
+    padding-top: 2%;  
+}
+
+.collaboration{
+    padding-top: 2%;
+    text-align: left;
+}
+
+.collaboration p{
+    display: flex-wrap;
+    margin-left: 3%;
+    padding-top: 2%;  
+}
+
+.together{
+    padding: 5%;
+}
+
+.button{
+    background-color: white;
+    border: solid black 2px;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    width:6rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
 
 footer {
     width: 100%;
