@@ -26,7 +26,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 [Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
-## Self-Study Questions
+## Self-Study Questions  (DONE)
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
@@ -34,17 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML gives meaning to our content.  It allows browsers and readers to identify what is being presented.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+    All structural HTML elements(div, h1, etc) are display:block by default.  Display:block takes up 100% of the space given and it pushes elements to a new line.
+    With display:inline elements (the a tag and spans) can be nested inside of block elements without pushing things to a new line.  They do not take a width and height. 
+
 3. What are the 4 areas of the box model?
+    The content; the padding; the margin and the border
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    It follows the cross axis
 
 5. Explain why git is valuable to a team of developers.
+    Git allows developers to post their work in ever-changing stages.  If a code should stop working, the developer can revert to a previously working code in order to troubleshoot. It is very useful for de-bugging.  It is also an environment where developers can collaborate.  
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
-## Project Set Up
+## Project Set Up (DONE)
 
 - [ ] Create a forked copy of this project.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
